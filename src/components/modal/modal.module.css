@@ -1,0 +1,25 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    opacity: 0;
+    pointer-events: none;
+}
+.modal.active {
+    opacity: 0.5;
+    pointer-events: all;
+}
+.content {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
